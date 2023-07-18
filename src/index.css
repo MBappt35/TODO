@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  margin: 10px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: rgb(222, 247, 255);
+  font-family: "Montserrat", sans-serif;
+}
+.main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  height: 35px;
+  width: 165px;
+  background-color: aliceblue;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+  margin-top: 40px;
+}
+
+li {
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+button {
+  height: 35px;
+  width: 70px;
+  padding: 5px;
+  background-color: aliceblue;
+  color: black;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+button:hover {
+  background-color: rgb(96, 110, 122);
+  color: #ccc;
+}
+.delete {
+  height: 30px;
+  width: 50px;
+  padding: 5px;
+  background-color: aliceblue(255, 0, 0);
+  color: black;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.delete:hover {
+  background-color: rgb(255, 0, 0);
+  color: #ccc;
+}
